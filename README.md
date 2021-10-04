@@ -1,7 +1,7 @@
 # discordMusicBot
 Discord Music Bot that plays, queues, pauses and resumes music. 
 <br>
-Date: October 2021 <br>
+Date: 4th October 2021 <br>
 Source Code: https://github.com/jolenechong/discordMusicBot/ <br>
 
 ## Commands
