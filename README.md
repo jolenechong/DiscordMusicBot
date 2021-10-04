@@ -29,14 +29,13 @@ $spongebob
 - add your token from your bot (create a bot with discord here https://discord.com/developers/docs/intro)
 - token is added at the  TOKEN = "" on main.py
 
-
 ```
 run python main.py
 ```
 
 ## Tech Stack
 - Python
-- Python Libraries: 
+- Python Libraries: discord, youtube_dl asyncio (i also used BeautifulSoup, requests, json for the other commands)
 
 ## Contact
 Jolene - [jolenechong7@gmail.com](mailto:jolenechong7@gmail.com)
