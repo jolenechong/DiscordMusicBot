@@ -1,8 +1,5 @@
-import os
 import discord
 import music
-from replit import db
-from keep_alive import keep_alive
 from bs4 import BeautifulSoup
 import requests
 import random
