@@ -31,6 +31,8 @@ $spongebob
 
 ```
 run python main.py
+
+as long as this program is running the bot will stay online!
 ```
 
 ## Tech Stack
