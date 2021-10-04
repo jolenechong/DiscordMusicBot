@@ -14,8 +14,8 @@ $queue [link from yt]
 $pause
 $resume
 ```
-<br>
 Other commands available:
+
 ```
 $compliment
 $joke
