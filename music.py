@@ -17,7 +17,7 @@ class music(commands.Cog):
         
       while True:
         # if bot is already playing music, sleep this, else play next song
-        if ctx.voice_client.is_playing():
+        if ctx.voice_client.is_playing() or ctx.voice_client.is_paused():
           await asyncio.sleep(1)
         else:
           await ctx.channel.send(f'currently playing {queueList[0]}')
