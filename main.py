@@ -60,17 +60,6 @@ async def on_message(message):
   if any(word in msg for word in sad_words):
     await message.channel.send('cheer up!')
 
-  if user_message.startswith('$note'):
-    await message.channel.send("note added!")
-    note = msg[6:-4]
-    key = msg[-4:]
-    db[key] = note
-    
-  if user_message.startswith('$list'):
-    key = msg[-4:]
-    value = db[key]
-    await message.channel.send(value)
-
   #gets random number and refers to the list of spongebob images and displays one according to the random number
   if user_message.startswith('$spongebob'):
     spongebobIMGs = ['https://i.ibb.co/GcMrS3D/Screenshot-2021-09-05-224845.png',
